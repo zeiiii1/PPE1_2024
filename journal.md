@@ -3,3 +3,4 @@
 - Nous avons travaillé sur Git
 - Exercice Pipelines
 - lorem ipsum
+Cette ligne doit rester après correction
