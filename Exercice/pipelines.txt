@@ -1,0 +1,271 @@
+ 2176  git ls-files
+ 2177  ls
+ 2178  touch comptes.txt
+ 2179  ls
+ 2180  git add *
+ 2181  git commit -m "création fichier comptes format txt" 
+ 2182  git push
+ 2183  git ls-files
+ 2184  cd ..
+ 2185  ls
+ 2186  cd PPE_2024
+ 2187  ls
+ 2188  cd ..
+ 2189  ls
+ 2190  cd TD1
+ 2191  ls
+ 2192  pwd 
+ 2193  cd Exercice1
+ 2194  pwd 
+ 2195  cd ../
+ 2196  cd ../PPE1_2024
+ 2197  ls
+ 2198  wc /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/TD1/Exercice1/*/*/*.ann
+ 2199  wc /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/TD1/Exercice1/*//*.ann
+ 2200  wc /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/TD1/Exercice1/ann/*/*.ann
+ 2201  cd ../TD1
+ 2202  cd Exercice1
+ 2203  ls
+ 2204  pwd
+ 2205  cd ann
+ 2206  pwd
+ 2207  wc */*/*.ann
+ 2208  wc */2016/*.ann
+ 2209  wc 2016/*/*.ann
+ 2210  echo "Annotations en 2016" | wc 2016/*/*.ann < comptes.txt 
+ 2211  echo "Annotations en 2016" | wc 2016/*/*.ann > comptes.txt 
+ 2212  ls
+ 2213  cat comptes.txt
+ 2214  rm comptes.txt
+ 2215  echo "Annotations en 2016" | wc -l 2016/*/*.ann > comptes.txt 
+ 2216  cat comptes.txt
+ 2217  wc -l 2016/*/*.ann 
+ 2218  man wc
+ 2219  wc -l 2016/*/*.ann | grep 
+ 2220  man grep
+ 2221  history
+ 2222  cd Dea
+ 2223  cd Desktop
+ 2224  cd M1\ TAL
+ 2225  ls
+ 2226  cd Programmation\ Projet\ Encadré
+ 2227  ls
+ 2228  cd TD1
+ 2229  ls
+ 2230  cd Exercice1
+ 2231  ls
+ 2232  cd ann
+ 2233  ls
+ 2234  rm comptes.txt
+ 2235  pwd 
+ 2236  cd ../
+ 2237  cd ..
+ 2238  ls
+ 2239  cd PPE_2024
+ 2240  ls
+ 2241  tree
+ 2242  cd ../PPE1_2024
+ 2243  ls
+ 2244  cd Exercice
+ 2245  ls
+ 2246  echo "Annotations en 2016 : " > comptes.txt 
+ 2247  cat comptes.txt
+ 2248  cd ..
+ 2249  cd Exercice
+ 2250  ls
+ 2251  pwd 
+ 2252  cd ..
+ 2253  cd ../TD1
+ 2254  cd Exercice1
+ 2255  ls
+ 2256  cd ann
+ 2257  cat */*/.*ann
+ 2258  cat */*/*.ann
+ 2259  wc -l */*/*.ann
+ 2260  grep "2016"
+ 2261  ls
+ 2262  wc -l */*/*.ann
+ 2263  wc -l */*/*.ann > /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/PPE1_2024/Exercice/comptes.txt
+ 2264  wc -l */*/*.ann > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2265  cd ..
+ 2266  cd..
+ 2267  cd ..
+ 2268  cd..
+ 2269  cd ..
+ 2270  cd PPE1_2024
+ 2271  ls
+ 2272  cd Exercice
+ 2273  ls
+ 2274  cat comptes.txt
+ 2275  cd ..
+ 2276  ls
+ 2277  cd Exercice
+ 2278  ls
+ 2279  git ls-giles
+ 2280  git ls-files
+ 2281  git rm comptes.txt
+ 2282  ls
+ 2283  git status
+ 2284  git commit -m "fichier comptes supprimé"
+ 2285  git push 
+ 2286  l
+ 2287  touch comptes.txt
+ 2288  cd ../
+ 2289  cd ../TD1
+ 2290  ls
+ 2291  cd Exercice1
+ 2292  cd ann 
+ 2293  cd ..
+ 2294  ls
+ 2295  cd ..
+ 2296  cd PPE1_2024
+ 2297  cd Exercice
+ 2298  pwd 
+ 2299  cd ..
+ 2300  cd TD1
+ 2301  cd Exercice1
+ 2302  cd ann
+ 2303  echo "Annotations en 2016 : " > /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/PPE1_2024/Exercice/comptes.txt
+ 2304  cat */*/*.ann | wc -l > /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/PPE1_2024/Exercice/comptes.txt
+ 2305  cat */*/*.ann | wc -l > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2306  rm /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2307  touch /Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/PPE1_2024/Exercice/comptes.txt
+ 2308  touch /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2309  echo "Annotations en 2016 : " > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2310  cat 2016/*/*.ann | wc -l > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2311  echo "Annotations en 2017 : " > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2312  cat 2017/*/*.ann | wc -l > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2313  echo "Annotations en 2018 : " > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2314  cat 2018/*/*.ann | wc -l > /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/PPE1_2024/Exercice/comptes.txt
+ 2315  cd ..
+ 2316  cd PPE1_2024
+ 2317  ls
+ 2318  cd Exercice
+ 2319  ls
+ 2320  cat comptes.txt
+ 2321  cat > comptes.txt
+ 2322  ls
+ 2323  cat comptes.txt
+ 2324  echo "Annotations en 2016 : " > comptes.txt
+ 2325  cat comptes.txt
+ 2326  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | wc -l > comptes.txt
+ 2327  cat comptes.txt
+ 2328  echo "Annotations en 2016 : " > comptes.txt
+ 2329  cat comptes.txt
+ 2330  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | wc -l >> comptes.txt
+ 2331  cat comptes.txt
+ 2332  echo "Annotations en 2017 : " > comptes.txt
+ 2333  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2017/*/*.ann | wc -l >> comptes.txt
+ 2334  echo "Annotations en 2018 : " > comptes.txt
+ 2335  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2018/*/*.ann | wc -l >> comptes.txt
+ 2336  cat comptes.txt
+ 2337  echo "Annotations en 2016 : " > comptes.txt
+ 2338  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | wc -l >> comptes.txt
+ 2339  echo "Annotations en 2017 : " >> comptes.txt
+ 2340  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2017/*/*.ann | wc -l >> comptes.txt
+ 2341  echo "Annotations en 2018 : " >> comptes.txt
+ 2342  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2018/*/*.ann | wc -l >> comptes.txt
+ 2343  cat comptes.txt
+ 2344  git add *
+ 2345  git commit -m "comptes.txt"
+ 2346  git push
+ 2347  touch locations.txt
+ 2348  echo "Annotations en 2016 : " > locations.txt
+ 2349  ls
+ 2350  cat 
+ 2351  cat locations.txt
+ 2352  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/*/*/*.ann | wc -l > locations.txt
+ 2353  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/*/* | wc -l > locations.txt
+ 2354  cat locations.txt
+ 2355  echo "Annotations pour Paris : " > locations.txt
+ 2356  cat locations.txt
+ 2357  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Paris/* | wc -l >> locations.txt
+ 2358  echo "Annotations pour Tokyo  : " >> locations.txt
+ 2359  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Tokyo/* | wc -l >> locations.txt
+ 2360  echo "Annotations pour Taipei  : " >> locations.txt
+ 2361  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Taipei/* | wc -l >> locations.txt
+ 2362  echo "Annotations pour Washington  : " >> locations.txt
+ 2363  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Washington/* | wc -l >> locations.txt
+ 2364  echo "Annotations pour Berlin  : " >> locations.txt
+ 2365  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Berlin/* | wc -l >> locations.txt
+ 2366  echo "Annotations pour Kyoto  : " >> locations.txt
+ 2367  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Kyoto/* | wc -l >> locations.txt
+ 2368  echo "Image Paris  : " > locations.txt
+ 2369  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Paris/* | wc -l >> locations.txt
+ 2370  echo "Image Tokyo  : " > locations.txt
+ 2371  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Tokyo/* | wc -l >> locations.txt
+ 2372  echo "Image Taipei  : " > locations.txt
+ 2373  cat locations.txt
+ 2374  echo "Image Paris : " > locations.txt 
+ 2375  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/img/Paris/* >> locations.txt
+ 2376  cat locations.txt
+ 2377  1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;1;112;112;1;0x1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c
+ 2378  ls
+ 2379  cd Exercice
+ 2380  ls
+ 2381  echo "Annotations pour Paris : " > locations.txt 
+ 2382  cat locations.txt
+ 2383  grep "Paris" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2384  cat locations.txt
+ 2385  echo "Annotations pour Paris : " > locations.txt 
+ 2386  grep "Paris" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2387  cat locations.txt
+ 2388  echo "Annotations pour Tokyo : " >> locations.txt 
+ 2389  grep "Tokyo" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2390  echo "Annotations pour Taipei : " >> locations.txt 
+ 2391  grep "Taipei" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2392  echo "Annotations pour Washington : " >> locations.txt 
+ 2393  grep "Washington" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2394  echo "Annotations pour Berlin : " >> locations.txt 
+ 2395  grep "Berlin" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2396  echo "Annotations pour Kyoto : " >> locations.txt 
+ 2397  grep "Kyoto" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2398  echo "Annotations pour Rome : " >> locations.txt 
+ 2399  grep "Rome" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2400  cat locations.txt
+ 2401  git add *
+ 2402  git commit -m "locations.txt"
+ 2403  git push 
+ 2404  git ls-files
+ 2405  git status
+ 2406  touch pipelines.txt
+ 2407  touch classement_2016.txt
+ 2408  touch classement_2017.txt
+ 2409  touch classement_2018.txt
+ 2410  man cut
+ 2411  man tail
+ 2412  man sort
+ 2413  man uniq
+ 2414  grep "Rome" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | wc -l >> locations.txt
+ 2415  cat locations.txt
+ 2416  vim locations.txt
+ 2417  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016 
+ 2418  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann
+ 2419  grep "Paris" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/*/*/*.ann | cut -f4 | sort | uniq -c | sort -n | head -n 15  >> locations.txt
+ 2420  cat locations.txt
+ 2421  vim locations.txt
+ 2422  grep "Location" /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | cut -f4 | sort | uniq -c | sort -n | head -n 15  >> classement_2016.txt
+ 2423  cat classement_2016.txt
+ 2424  git status
+ 2425  git *
+ 2426  git add *
+ 2427  git commit -m "fichiers crées"
+ 2428  git push
+ 2429  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -n | head -n 15  >> classement_2016.txt
+ 2430  cat classement_2016.txt
+ 2431  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2016/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -n 15  > classement_2016.txt
+ 2432  cat classement_2016.txt
+ 2433  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2017/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -n 15  > classement_2017.txt
+ 2434  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2018/*/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -n 15  > classement_2018.txt
+ 2435  cat classement_2016.txt
+ 2436  cat classement_2017.txt
+ 2437  cat classement_2018.txt
+ 2438  git add *
+ 2439  git commit -m "classement"
+ 2440  git push 
+ 2441  touch classement_01_2018.txt 
+ 2442  cat /Users/zeinabomar/Desktop/M1\ TAL/Programmation\ Projet\ Encadré/TD1/Exercice1/ann/2018/01/*.ann | grep "Location" | cut -f3 | sort | uniq -c | sort -nr | head -n 15  > classement_01_2018.txt
+ 2443  cat classement_01_2018.txt
+ 2444  git add classement_01_2018.txt
+ 2445  git commit -m "classement janvier 2018" 
+ 2446  git push 
