@@ -4,3 +4,6 @@
 - Exercice Pipelines
 - lorem ipsum
 Cette ligne doit rester après correction
+
+# Fichiers erreurs 
+une ligne
