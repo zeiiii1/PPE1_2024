@@ -6,6 +6,6 @@ chemin_fichier="/Users/zeinabomar/Desktop/M1 TAL/Programmation Projet Encadré/P
 for annee in 2016 2017 2018
 do
     compte=$(grep "Location" "$chemin_ann/$annee"/*/*.ann | wc -l)
-    echo -e "Annotations en $annee :\n$compte\n" >> "$chemin_fichier"
+    echo -e "$annee :\n$compte\n" >> "$chemin_fichier"
 done
  
